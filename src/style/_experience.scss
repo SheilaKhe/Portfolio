@@ -1,0 +1,28 @@
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 50px ;
+    &__list {
+        list-style-type: none;
+        h3 {
+            margin: 6px 0;
+        }
+        &--item {
+            @include bebas;
+            color: $wh;
+            margin: 20px 0;
+            span {
+                font-style: italic;
+                color: $pink;
+            }
+            p {
+                color: $lgrey;
+            }
+        }
+    }
+}
+
